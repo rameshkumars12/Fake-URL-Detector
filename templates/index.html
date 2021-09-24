@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width-device-width,initial-scale=1.0">
+    </head>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif slateblue;
+       }
+    .author{
+        position:absolute;
+        bottom: 8px;
+        right: 16px
+        font-size: 18px;
+        width: 100%;
+        text-align: center;
+        color: #00008B;
+
+    }
+
+    .text-center{
+        width: 100%;
+        position: absolute;
+        top: 45%;
+        transform: translateY(-50%);
+        text-align: center;
+        color: slateblue;
+    }
+    .content{
+        width: 100%;
+        position: absolute;
+        top: 60%;
+        transform: translateY(-50%);
+        text-align: center;
+        color: slateblue;
+    }
+    .search-box{
+        top: 65%;
+        transform: translateY(-50%);
+        text-align: center;
+        color: slateblue;
+        font-size: 20px;
+        margin: 4px 2px;
+        width: 50%;
+        border: 3px lite black;
+        padding: 9px;
+    }
+
+    .button{
+        top: 65%;
+        transform: translateY(-50%);
+        border: none;
+        color: white;
+        padding: 14px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        background-color: slateblue;
+        text-align:center;
+    }
+    .result{
+        width: 100%;
+        position: absolute;
+        top: 70%;
+        font-size: 20px
+        display: block;
+        transform: translateY(-50%);
+        text-align: center;
+        color: Indigo;
+    }
+
+    </style>
+
+    <body>
+        <h1 class="text-center">FakeUrlDetector</h1>
+        <div class="content">
+            <form action="/" method="POST">
+                <input class="search-box" type="text" name="link" placeholder="Enter URL">
+                <button class="button" type="submit">Find</button>
+
+            </form>
+        </div>
+        <p class="result">{{site_url}}</p>
+        <div class="author" type="text">&#128153; by Ramesh Kumar & Madhu Babu</textarea>
+        </div>
+
+    </body>
+
+</html>

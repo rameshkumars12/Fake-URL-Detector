@@ -7,3 +7,7 @@ This is a **Classification Problem** because the outcome of this project should 
 and we are going to use **TfidVectorizer** for tokenizing the words.
 
 ### The decision tree algorithm gave us the best accuracy score of 91 and above.
+
+## The machine learning model has been deployed using heroku.
+
+# https://fake-url-detector.herokuapp.com/

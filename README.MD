@@ -1,4 +1,4 @@
-# Fake-Site-Detection
+# Fake-URL-Detector
 
 ### Project Definition:
 The main goal of this project is to find the whether the given sites are legit or fake. The dataset has legits sites(labeled as 0) and  fake sites(labeled as 1). 

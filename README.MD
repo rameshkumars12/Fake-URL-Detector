@@ -10,4 +10,4 @@ and we are going to use **TfidVectorizer** for tokenizing the words.
 
 ## The machine learning model has been deployed using heroku.
 
-# https://fake-url-detector.herokuapp.com/
+#### https://fake-url-detector.herokuapp.com/
